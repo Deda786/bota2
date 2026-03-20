@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+.card {
+    display: flex;
+    width: 670px;
+    height: 440px;
+    background: #fff;
+    border-radius: 15px;
+    overflow: visible;
+    
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* LEFT SIDE */
+.left {
+    width: 50%;
+    padding: 30px;
+    color: white;
+    position: relative;
+    background: linear-gradient(180deg, #06d7c1, #50cc49);
+}
+
+.logo {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.left h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.bota {
+    width: 400px;
+    height: 270px;
+    transform: translate(-70px, 20px);
+}
+   
+
+.price {
+    position: absolute;
+    bottom: 30px;
+    right:30px;
+}
+
+.price h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.price p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* RIGHT SIDE */
+.right {
+    width: 50%;
+    padding: 30px;
+}
+
+.right h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.desc {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* SIZES */
+.sizes p {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.size-list span {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.size-list .active {
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 5px 8px;
+}
+
+/* BUTTON */
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ff5a3c;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e14b2f;
+}
